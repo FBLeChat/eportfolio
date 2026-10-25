@@ -1,4 +1,3 @@
-# eportfolio
 # E-Portfolio Ingénieur - Félix Bellais
 
 Ce dépôt héberge le code source de mon e-portfolio académique bilingue (Anglais / Français), développé dans le cadre de ma formation d'ingénieur en électronique à l'ENSEEIHT (INP Toulouse). 

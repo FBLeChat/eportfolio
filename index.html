@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<!--
+    Forty by HTML5 UP
+    html5up.net 
+-->
+<html>
+    <head>
+        <title>Félix Bellais | E-Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Gestion propre de l'affichage des langues */
+            body.lang-en-active .lang-fr { display: none !important; }
+            body.lang-fr-active .lang-en { display: none !important; }
+            
+            /* Style du bouton de langue pour qu'il s'intègre parfaitement à côté de Menu */
+            #lang-btn {
+                border: 0;
+                box-shadow: inset 0 0 0 2px #ffffff;
+                color: #ffffff;
+                font-size: 0.8em;
+                font-weight: 600;
+                height: 2.75em;
+                letter-spacing: 0.25em;
+                line-height: 2.75em;
+                padding: 0 1.25em;
+                text-transform: uppercase;
+                text-decoration: none;
+                margin-right: 1em;
+                cursor: pointer;
+                transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+                display: inline-block;
+            }
+            #lang-btn:hover {
+                box-shadow: inset 0 0 0 2px #9bf1ff;
+                color: #9bf1ff !important;
+            }
+            /* Empêche la flèche du bouton Menu d'apparaître sur le bouton de langue */
+            #header nav a#lang-btn:before, #header nav a#lang-btn:after {
+                display: none !important;
+            }
+        </style>
+    </head>
+    <body class="is-preload lang-en-active">
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Header -->
+                    <header id="header" class="alt">
+                        <a href="index.html" class="logo"><strong>Félix</strong> <span>Bellais</span></a>
+                        <nav>
+                            <a href="javascript:void(0);" id="lang-btn" onclick="toggleLanguage()">EN</a>
+                            <a href="#menu">Menu</a>
+                        </nav>
+                    </header>
+
+                <!-- Menu -->
+                    <nav id="menu">
+                        <ul class="links">
+                            <li>
+                                <a href="index.html">
+                                    <span class="lang-en">Welcome (Home)</span>
+                                    <span class="lang-fr">Accueil</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="engineering.html">
+                                    <span class="lang-en">Engineering Courses</span>
+                                    <span class="lang-fr">Cours d'Ingénierie</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mobility.html">
+                                    <span class="lang-en">International Mobility</span>
+                                    <span class="lang-fr">Mobilité Internationale</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sustainability.html">
+                                    <span class="lang-en">Sustainability & Civic Engagement</span>
+                                    <span class="lang-fr">Engagement Citoyen & Écologie</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sports.html">
+                                    <span class="lang-en">Sport & Other Activities</span>
+                                    <span class="lang-fr">Sports & Activités</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="career.html">
+                                    <span class="lang-en">Career Development</span>
+                                    <span class="lang-fr">Développement Professionnel</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                <!-- Banner -->
+                    <section id="banner" class="major">
+                        <div class="inner">
+                            <header class="major">
+                                <h1 class="lang-en">My Engineering E-Portfolio</h1>
+                                <h1 class="lang-fr">Mon E-Portfolio d'Ingénieur</h1>
+                            </header>
+                            <div class="content">
+                                <div style="width: 100%;">
+                                    <p class="lang-en">My e-portfolio based on the work carried out in the ENSEEIHT engineering degree program</p>
+                                    <p class="lang-fr">Mon e-portfolio basé sur les travaux réalisés durant mon cursus d'ingénieur à l'ENSEEIHT</p>
+                                    
+                                    <!-- Lecteurs vidéo (Elevator Pitch)  -->
+                                    <div style="margin-top: 3em; margin-left: auto; margin-right: auto; max-width: 750px;">
+                                        
+                                        <!-- Vidéo en Anglais (s'affiche uniquement si le site est en EN) -->
+                                        <video class="lang-en" width="100%" controls style="border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                                            <source src="pitch_en.mp4" type="video/mp4">
+                                        </video>
+
+                                        <!-- Vidéo en Français (s'affiche uniquement si le site est en FR) -->
+                                        <video class="lang-fr" width="100%" controls style="border-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                                            <source src="pitch_fr.mp4" type="video/mp4">
+                                        </video>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                <!-- One -->
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h2 class="lang-en">About Me</h2>
+                                <h2 class="lang-fr">À propos de moi</h2>
+                            </header>
+                            <p class="lang-en">Welcome to my e-portfolio! I am Félix Bellais, an engineering student at ENSEEIHT - INP Toulouse. This website aims to showcase my skills, my projects, and the evolution of my career goals throughout my three-year engineering studies.</p>
+                            <p class="lang-fr">Bienvenue sur mon e-portfolio ! Je suis Félix Bellais, élève ingénieur à l'ENSEEIHT - INP Toulouse. Ce site a pour objectif de présenter mes compétences, mes projets et l'évolution de mes objectifs professionnels tout au long de mes trois années d'études d'ingénieur.</p>
+                        </div>
+                    </section>
+    
+                <!-- Main -->
+                    <div id="main">
+                        <section class="tiles">
+                            <article class="style3" style="width: 100%;">
+                                <span class="image">
+                                    <img src="images/pic01.jpg" alt="" />
+                                </span>
+                                <header class="major">
+                                    <h3>
+                                        <a href="engineering.html" class="link">
+                                            <span class="lang-en">Engineering Courses</span>
+                                            <span class="lang-fr">Cours d'Ingénierie</span>
+                                        </a>
+                                    </h3>
+                                    <p class="lang-en">My academic and scientific projects</p>
+                                    <p class="lang-fr">Mes projets académiques et scientifiques</p>
+                                </header>
+                            </article>
+                        </section>
+                        <section class="tiles">
+                            <article class="style1">
+                                <span class="image">
+                                    <img src="images/pic02.jpg" alt="" />
+                                </span>
+                                <header class="major">
+                                    <h3>
+                                        <a href="mobility.html" class="link">
+                                            <span class="lang-en">International Mobility</span>
+                                            <span class="lang-fr">Mobilité Internationale</span>
+                                        </a>
+                                    </h3>
+                                    <p class="lang-en">My past experiences and future projects</p>
+                                    <p class="lang-fr">Mes expériences passées et projets futurs</p>
+                                </header>
+                            </article>
+                            <article>
+                                <span class="image">
+                                    <img src="images/pic03.jpg" alt="" />
+                                </span>
+                                <header class="major">
+                                    <h3>
+                                        <a href="sustainability.html" class="link">
+                                            <span class="lang-en">Sustainability & Civic Engagement</span>
+                                            <span class="lang-fr">Engagement Citoyen & Écologie</span>
+                                        </a>
+                                    </h3>
+                                    <p class="lang-en">My civic and associative engagements</p>
+                                    <p class="lang-fr">Mes engagements associatifs et citoyens</p>
+                                </header>
+                            </article>
+                            <article>
+                                <span class="image">
+                                    <img src="images/pic04.jpg" alt="" />
+                                </span>
+                                <header class="major">
+                                    <h3>
+                                        <a href="sports.html" class="link">
+                                            <span class="lang-en">Sport & Other Activities</span>
+                                            <span class="lang-fr">Sports & Activités</span>
+                                        </a>
+                                    </h3>
+                                    <p class="lang-en">Extracurricular involvement, competitions, and hobbies</p>
+                                    <p class="lang-fr">Implication parascolaire, compétitions et loisirs</p>
+                                </header>
+                            </article>
+                            <article>
+                                <span class="image">
+                                    <img src="images/pic05.jpg" alt="" />
+                                </span>
+                                <header class="major">
+                                    <h3>
+                                        <a href="career.html" class="link">
+                                            <span class="lang-en">Career Development</span>
+                                            <span class="lang-fr">Développement Professionnel</span>
+                                        </a>
+                                    </h3>
+                                    <p class="lang-en">My career project, CVs and Pitch Video</p>
+                                    <p class="lang-fr">Mon projet professionnel, CV et Pitch Vidéo</p>
+                                </header>
+                            </article>
+                        </section>
+
+                    </div>
+
+                <!-- Contact -->
+                    <section id="contact">
+                        <div class="inner">
+                            <section>
+                                <!-- Formulaire remis pour équilibrer le design, avec traduction -->
+                                <form method="post" action="#">
+                                    <div class="fields">
+                                        <div class="field half">
+                                            <label for="name">
+                                                <span class="lang-en">Name</span>
+                                                <span class="lang-fr">Nom</span>
+                                            </label>
+                                            <input type="text" name="name" id="name" />
+                                        </div>
+                                        <div class="field half">
+                                            <label for="email">Email</label>
+                                            <input type="text" name="email" id="email" />
+                                        </div>
+                                        <div class="field">
+                                            <label for="message">Message</label>
+                                            <textarea name="message" id="message" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <ul class="actions">
+                                        <li>
+                                            <button type="submit" class="primary">
+                                                <span class="lang-en">Send Message</span>
+                                                <span class="lang-fr">Envoyer</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button type="reset">
+                                                <span class="lang-en">Clear</span>
+                                                <span class="lang-fr">Effacer</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </section>
+
+                            <section class="split">
+                                <section>
+                                    <div class="contact-method">
+                                        <span class="icon solid alt fa-envelope"></span>
+                                        <h3>Email</h3>
+                                        <a href="mailto:felixbellais971@gmail.com">felixbellais971@gmail.com</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="contact-method">
+                                        <span class="icon solid alt fa-phone"></span>
+                                        <h3 class="lang-en">Phone</h3>
+                                        <h3 class="lang-fr">Téléphone</h3>
+                                        <span>+33 7 67 51 66 51</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="contact-method">
+                                        <span class="icon solid alt fa-home"></span>
+                                        <h3 class="lang-en">Location</h3>
+                                        <h3 class="lang-fr">Localisation</h3>
+                                        <span>Toulouse, France</span>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </section>
+
+                <!-- Footer -->
+                    <footer id="footer">
+                        <div class="inner">
+                            <ul class="icons">
+                                <li><a href="https://www.linkedin.com/in/félix-bellais-714166436/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            </ul>
+                            <ul class="copyright">
+                                <li>&copy; Félix Bellais</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </footer>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+        <!-- Script de changement de langue (FR / EN) -->
+            <script>
+                let currentLang = localStorage.getItem('siteLang') || 'en';
+
+                function applyLanguage(lang) {
+                    const btn = document.getElementById('lang-btn');
+
+                    if (lang === 'fr') {
+                        document.body.classList.remove('lang-en-active');
+                        document.body.classList.add('lang-fr-active');
+                        btn.textContent = 'FR';
+                    } else {
+                        document.body.classList.remove('lang-fr-active');
+                        document.body.classList.add('lang-en-active');
+                        btn.textContent = 'EN';
+                    }
+                    localStorage.setItem('siteLang', lang);
+                }
+
+                function toggleLanguage() {
+                    currentLang = (currentLang === 'en') ? 'fr' : 'en';
+                    applyLanguage(currentLang);
+                }
+
+                document.addEventListener('DOMContentLoaded', () => {
+                    applyLanguage(currentLang);
+                });
+            </script>
+
+    </body>
+</html>
