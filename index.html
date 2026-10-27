@@ -10,12 +10,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <style>
+<style>
             /* Gestion propre de l'affichage des langues */
             body.lang-en-active .lang-fr { display: none !important; }
             body.lang-fr-active .lang-en { display: none !important; }
             
-            /* Style du bouton de langue pour qu'il s'intègre parfaitement à côté de Menu */
+            /* Style du bouton de langue */
             #lang-btn {
                 border: 0;
                 box-shadow: inset 0 0 0 2px #ffffff;
@@ -37,9 +37,14 @@
                 box-shadow: inset 0 0 0 2px #9bf1ff;
                 color: #9bf1ff !important;
             }
-            /* Empêche la flèche du bouton Menu d'apparaître sur le bouton de langue */
             #header nav a#lang-btn:before, #header nav a#lang-btn:after {
                 display: none !important;
+            }
+            /* RÉPARE LE DÉCALAGE DU TITRE DANS LA BANNIÈRE */
+            #banner {
+                justify-content: flex-start !important;
+                padding-top: 8em !important;
+                padding-bottom: 4em !important;
             }
         </style>
     </head>
